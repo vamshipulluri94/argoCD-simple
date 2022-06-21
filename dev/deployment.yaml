@@ -8,7 +8,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
-  replicas: 1
+  replicas: 4
   template:
     metadata:
       labels:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: armdocker.rnd.ericsson.se/dockerhub-ericsson-remote/nginx:1.21.0
+          image: armdocker.rnd.ericsson.se/dockerhub-ericsson-remote/nginx:1.21.6
           ports:
             - containerPort: 80
 
