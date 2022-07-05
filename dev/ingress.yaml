@@ -5,7 +5,7 @@ metadata:
 spec:
   rules:
     # Edit the hostname to fit your environment.
-    - host: http://nginx.vamshi.primus.bbi-ci.rnd.gic.ericsson.se
+    - host: nginx.vamshi.primus.bbi-ci.rnd.gic.ericsson.se
       http:
         paths:
           - path: /
