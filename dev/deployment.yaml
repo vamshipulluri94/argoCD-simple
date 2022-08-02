@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: armdocker.rnd.ericsson.se/dockerhub-ericsson-remote/nginx:1.21.6
+          image: nginx:1.21.6
           ports:
             - containerPort: 80
 
